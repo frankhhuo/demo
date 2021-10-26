@@ -1,0 +1,41 @@
+table,
+td,
+th {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 33%;
+}
+
+th {
+  height: 20px;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+}
+
+.warning {
+  color: red;
+  font-weight: bold;
+}
+
+.info {
+  font-weight: bold
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+textarea,
+.textarea {
+  width: 55%;
+  height: 100px;
+}

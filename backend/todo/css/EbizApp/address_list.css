@@ -1,0 +1,38 @@
+table {
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  padding: 15px;
+  text-align: left;
+}
+
+input {
+  width: calc(100%);
+  width: -webkit-calc(100%);
+  margin: 0;
+  padding: 0;
+}
+
+td.search {
+  padding: 0;
+  margin: 0;
+}
+
+td.search select {
+  width: 100%;
+}
+
+@media all and (max-width:768px) {
+  .table tr {
+    display: table;
+    width: 100%;
+  }
+
+  .table td {
+    display: table-row;
+  }
+}

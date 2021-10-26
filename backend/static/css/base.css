@@ -1,0 +1,52 @@
+/* The container <div> - needed to position the dropdown content */
+@media (max-width: 768px) {
+  #sidebar {
+    margin-left: -180px;
+  }
+
+  #sidebar.active {
+    margin-left: 0;
+  }
+}
+
+a.group {
+  background-color: darkblue;
+  display: block;
+  text-align: center;
+}
+
+table {
+  table-layout: fixed;
+  word-wrap: break-word;
+}
+
+.errorlist {
+  background-color: lightyellow;
+  font-size: 100;
+}
+
+li a.active {
+  background-color: turquoise;
+  color: white;
+  font: bold;
+}
+
+.col-1 {
+  width: 10%;
+}
+
+.col-id {
+  width: 5%;
+}
+
+.col-2 {
+  width: 20%;
+}
+
+.col-narrow {
+  width: 5%;
+}
+
+.col-15p {
+  width: 15%;
+}

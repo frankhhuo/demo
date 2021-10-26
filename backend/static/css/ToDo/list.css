@@ -1,0 +1,65 @@
+table {
+  border-collapse: collapse;
+
+}
+
+table,
+th,
+td {
+  border: none;
+  padding: 2px;
+  text-align: left;
+}
+
+input {
+  width: calc(100%);
+  width: -webkit-calc(100%);
+  margin: 0;
+  padding: 0;
+}
+
+td.search {
+  padding: 0;
+  margin: 0;
+}
+
+td.search select {
+  width: 100%;
+}
+
+table caption {
+  caption-side: top;
+}
+
+@media all and (max-width:768px) {
+  .table tr {
+    display: table;
+    width: 100%;
+  }
+
+  .table td {
+    display: table-row;
+    border: none;
+  }
+
+  thead {
+    display: none;
+  }
+
+  td[data-th]:before {
+    content: attr(data-th);
+  }
+
+  tr.search:before {
+    content: "Filters";
+    display: block;
+    width: 100%;
+    background-color: lightblue;
+  }
+
+}
+
+.table-striped>tbody>tr:nth-child(2n+1)>td,
+.table-striped>tbody>tr:nth-child(2n+1)>th {
+  background-color: lightblue;
+}
