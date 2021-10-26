@@ -15,8 +15,9 @@ import json
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+with open(os.path.join(BASE_DIR, "demo/", "config.json"), "r") as config_file:
 
-CONFIG = json.load(os.path.join(BASE_DIR, "demo/", "config.json"))
+    CONFIG = json.load(config_file)
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
